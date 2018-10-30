@@ -40,7 +40,8 @@ var handleSignup = function handleSignup(e) {
 var LoginWindow = function LoginWindow(props) {
     return React.createElement(
         "form",
-        { id: "loginFrom", name: "loginForm",
+        { id: "loginForm",
+            name: "loginForm",
             onSubmit: handleLogin,
             action: "/login",
             method: "POST",
@@ -66,7 +67,8 @@ var LoginWindow = function LoginWindow(props) {
 var SignupWindow = function SignupWindow(props) {
     return React.createElement(
         "form",
-        { id: "signupFrom", name: "signupForm",
+        { id: "signupForm",
+            name: "signupForm",
             onSubmit: handleSignup,
             action: "/signup",
             method: "POST",
